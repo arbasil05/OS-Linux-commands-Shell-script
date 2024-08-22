@@ -42,6 +42,7 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![2](../OS-Linux-commands-Shell-script/Images/2-copy.png)
 
 
 
@@ -52,14 +53,16 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+![command1](./Images/command%201.png)
  
 comm file1 file2
  ## OUTPUT
+ ![command2](./Images/command%202.png)
 
  
 diff file1 file2
 ## OUTPUT
-
+![command3](./Images/command%203.png)
 
 #Filters
 
@@ -82,6 +85,7 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![command4](./Images/command%204.png)
 
 
 
