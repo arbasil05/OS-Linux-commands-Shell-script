@@ -92,11 +92,14 @@ cut -c1-3 file11
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/842aab3c-3816-4426-8a0b-6816947d37e7)
+
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![command 6](https://github.com/user-attachments/assets/6f5357da-8b20-4f7a-9968-65888f979af4)
 
 
 cat < newfile 
