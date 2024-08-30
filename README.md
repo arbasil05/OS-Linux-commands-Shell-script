@@ -219,24 +219,29 @@ egrep '((W|w)orld$)' newfile
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![command 19](https://github.com/user-attachments/assets/a5a6c78c-353e-4eaf-bd93-b209ee754dc3)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![command 20](https://github.com/user-attachments/assets/e9e24aed-109e-484b-b3da-5500d75bbc2c)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![command 21](https://github.com/user-attachments/assets/b8dbae4d-6043-4198-86af-96d630f1b7ba)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![command 22](https://github.com/user-attachments/assets/4b337dc7-1393-4177-ade2-9d1b4d0373f0)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![command 23](https://github.com/user-attachments/assets/58bc9078-6a88-45a4-9406-8c30f08821eb)
 
 
 cat > file23
@@ -255,16 +260,19 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![command 24](https://github.com/user-attachments/assets/6138491f-97fe-4514-8e4a-bf6343b16413)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![command 25](https://github.com/user-attachments/assets/6bed553c-e130-43fa-9838-29f32f839656)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![command 26](https://github.com/user-attachments/assets/4d5f035e-6a6c-4313-9a9b-3ed82adfac96)
 
 
 
@@ -275,27 +283,32 @@ sed  -e '2s/Ram/Sita/' file23
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2bfabdf7-a2e4-4a13-bb5a-02e2364e4dfd)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![command 28](https://github.com/user-attachments/assets/238279c2-d1f6-4408-8165-aea0de537ed8)
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+![command 29](https://github.com/user-attachments/assets/f285f5a6-3bb6-4da0-ab41-b1345fa30af0)
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+![command 30](https://github.com/user-attachments/assets/26656a7d-6bf5-456d-a07e-315417b53b30)
 
 
 
 seq 10 
 ## OUTPUT
+![command 31](https://github.com/user-attachments/assets/bc2d6ec5-d2f0-4f52-ae6a-ac964de2db61)
 
 
 
@@ -306,28 +319,35 @@ seq 10 | sed -n '4,6p'
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![command 32](https://github.com/user-attachments/assets/a04b8444-4997-4c1c-ac05-4c8d8297464e)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![command 33](https://github.com/user-attachments/assets/e22302e2-61f0-4017-b9af-12db332c48fb)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![command 34](https://github.com/user-attachments/assets/49212229-d171-4142-9ae1-4a7a7fdc1f0b)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![command 35](https://github.com/user-attachments/assets/419cba85-738c-48f2-b66d-dc699cc79714)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![command 36](https://github.com/user-attachments/assets/7cbb615b-ba4f-43b0-a973-1225039a905d)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+![command 37](https://github.com/user-attachments/assets/e7c803a0-75ab-4358-b36d-62fe3901a02a)
 
 
 #Sorting File content
@@ -341,6 +361,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/208b8ee3-f38e-49d3-bfc8-5cfd8333bb4d)
 
 
 cat > file22
@@ -354,6 +375,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/5efc7b44-a931-4eb8-ab6e-da006791ec84)
 
 
 
@@ -361,6 +383,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/aae7f751-7328-47db-8c9c-047441dd7b14)
 
 cat < urllist.txt
 ```
@@ -377,17 +400,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/1403a718-9017-48c7-a5fc-8ecb89a23068)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![command 42](https://github.com/user-attachments/assets/344b2f49-27d5-4363-a819-8cf161a24f2f)
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![command 43](https://github.com/user-attachments/assets/0daa1d3b-6589-4051-a7cf-0d29cf03dc5e)
 
 
 mkdir backupdir
@@ -396,10 +422,12 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![command 44](https://github.com/user-attachments/assets/0eaa08c6-79bc-48ec-8807-0d4236e0c8ba)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![command 45](https://github.com/user-attachments/assets/253c1bfe-f0f6-4b7e-a7b0-da787216ce27)
 
 gzip backup.tar
 
