@@ -114,39 +114,47 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![command 7](https://github.com/user-attachments/assets/595f3622-3478-475e-b487-8749a21e85a8)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![command 8](https://github.com/user-attachments/assets/89f64997-206a-4fba-8ff7-43a4a0c7e3dc)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/41d5f439-1148-4344-b075-9920fb0bf1bf)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![command 10](https://github.com/user-attachments/assets/aca46ac4-b77b-4e92-b4f0-7eced384ffd9)
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![command 11](https://github.com/user-attachments/assets/dfdf9143-4dc1-495a-8476-f273f08e5d5f)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e8120c2f-7133-420c-86e6-418f75504767)
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d3b61217-20e1-42d1-8c60-716df953855b)
 
 
 cat < newfile 
@@ -170,11 +178,13 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![command 13](https://github.com/user-attachments/assets/5bd1f67f-eb83-48d3-8cd3-ef760d50a825)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![command 14](https://github.com/user-attachments/assets/1725870c-9433-461e-b760-7c691c066e14)
 
 
 
@@ -186,20 +196,24 @@ egrep -w '(H|h)ell[a-z]' newfile
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![command 15](https://github.com/user-attachments/assets/38dce262-b710-4833-9846-96f5066823ab)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![command 16](https://github.com/user-attachments/assets/6a02648e-f2bd-4fe2-8c2d-4c409eb2d756)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![command 17](https://github.com/user-attachments/assets/33ebf905-25f0-4c28-8eae-f4754f27cc3f)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![command 18](https://github.com/user-attachments/assets/3b1790fe-248a-4496-85a1-4c66522d81d1)
 
 
 
