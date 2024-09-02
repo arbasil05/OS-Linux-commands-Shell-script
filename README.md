@@ -42,7 +42,8 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![2](../OS-Linux-commands-Shell-script/Images/2-copy.png)
+![image](https://github.com/user-attachments/assets/78c0a415-ea3d-48fe-8a96-3a1236c82a88)
+
 
 
 
