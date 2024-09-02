@@ -435,6 +435,8 @@ gzip backup.tar
 
 ls .gz
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/74613809-82c6-4ab5-a309-247acceb5c90)
+
  
 gunzip backup.tar.gz
 ## OUTPUT
