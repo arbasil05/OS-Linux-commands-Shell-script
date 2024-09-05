@@ -518,11 +518,14 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+ ![image](https://github.com/user-attachments/assets/188912da-e62b-43b6-a716-fd53a94c025f)
+
  
 abcd
  
 echo $?
  ## OUTPUT
+c![image](https://github.com/user-attachments/assets/cb341fcc-d68c-4f34-934a-c441ec70dcd5)
 
 
  
@@ -531,14 +534,7 @@ echo $?
 cat < strcomp.sh 
 ```bash
 \#!/bin/bash
-val1=baseball
-val2=hockey
-if [ $val1 \> $val2 ]
-then
-echo "$val1 is greater than $val2"
-else
-echo "$val1 is less than $val2"
-fi
+trcom
 ^d
 ```
 
@@ -554,7 +550,8 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
+![image](https://github.com/user-attachments/assets/c6a4482f-ea11-42a3-92ad-ec043e378c69)
 
 
 
@@ -562,6 +559,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2e144994-f6e6-4a45-9d64-118889a081f2)
 
 
 # check file ownership
@@ -589,6 +587,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/40b4397f-0fb8-47cf-9a00-3c8009ebe8c6)
 
 # check if with file location
 cat>ifnested.sh 
@@ -635,6 +634,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e633eedb-3051-4daf-96b2-602a9298b130)
 
 
 
@@ -678,7 +678,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/user-attachments/assets/6ad1b72b-075c-448e-816c-55eed017ad11)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -727,7 +729,9 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/user-attachments/assets/7f6f737f-a41b-4d13-a1dc-e8d0c5559b9b)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -756,6 +760,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e5908f3c-8954-4ad5-97be-1cc9908f4a1c)
 
 
 # testing compound comparisons
@@ -772,6 +777,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/1a7f993a-5ef5-493a-bf71-cd793efa0ba3)
 
 # using the case command
 cat >casecheck.sh 
@@ -791,7 +797,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT
+ ![image](https://github.com/user-attachments/assets/c34e21d6-23ea-413b-b45b-50bf8c87d106)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -806,6 +814,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+## OUTPUT
+![image](https://github.com/user-attachments/assets/bfe1f71d-0cae-4315-8c27-3afdd012cc5d)
+
  
  
 cat untiltest.sh 
@@ -819,7 +830,10 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+./untiltest.sh
+## OUTPUT
+![image](https://github.com/user-attachments/assets/68cd5d2a-67ed-4627-b78c-727ded08bd32)
+
  
  
 cat forin1.sh 
@@ -833,7 +847,10 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+./forin1.sh
+## OUTPUT
+![image](https://github.com/user-attachments/assets/c86fabbf-b599-4e67-83c0-23b64ecacfff)
+
  
 cat forin2.sh 
 ```bash
@@ -846,7 +863,10 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+./forin2.sh
+## OUTPUT
+
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -859,7 +879,6 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
 cat forin3.sh 
 ```bash
 \#!/bin/bash
