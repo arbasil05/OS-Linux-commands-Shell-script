@@ -450,6 +450,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/075a3e0d-6cac-4c86-885b-2e3a3d0e23de)
 
  
 cat << stop > herecheck.txt
@@ -462,7 +463,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/68df9f61-6214-4688-a207-bb9036398f46)
+cat 
 
 cat < scriptest.sh 
 ```bash
@@ -500,13 +502,17 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/a167b6ea-a6c6-466b-a391-9fbff6d90ed6)
 
  
 ls file1
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/12e63c09-17d5-43cd-a853-b8cb50dd1e41)
 
 echo $?
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/13e54aab-72ef-49db-9fb3-b96f71ba6a6e)
+
 ./one
 bash: ./one: Permission denied
  
